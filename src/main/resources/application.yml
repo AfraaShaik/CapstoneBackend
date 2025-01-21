@@ -1,9 +1,8 @@
 spring:
   datasource:
-    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://localhost;databaseName=BankingSystemDB;trustServerCertificate=true;
-    username: sa
-    password: afraa
+    url: jdbc:sqlserver://newserverafraa.database.windows.net:1433;database=BankingSystemDB;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: afraa@newserverafraa
+    password: Chubb@12
   jpa:
     show-sql: true
     hibernate:
